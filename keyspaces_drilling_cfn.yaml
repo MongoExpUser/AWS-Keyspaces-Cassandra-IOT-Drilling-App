@@ -73,6 +73,7 @@ Resources:
  
   OrgTableOne:
     DependsOn:
+    DependsOn:
     - OrgKeyspace
     Type: AWS::Cassandra::Table
     Properties:
@@ -91,54 +92,56 @@ Resources:
       - ColumnName: time_utc
         ColumnType: TIMESTAMP
       # drill string data from regular drilling operation (drill string-related)
-      - ColumnName: ROP_fph
+      - ColumnName: rop_fph
         ColumnType: DECIMAL
-      - ColumnName: RPM_rpm
+      - ColumnName: rpm_rpm
         ColumnType: DECIMAL
-      - ColumnName: SPP_psi
+      - ColumnName: spp_psi
         ColumnType: DECIMAL
-      - ColumnName: DWOB_lb
+      - ColumnName: dwob_lb
         ColumnType: DECIMAL
-      - ColumnName: SWOB_lb
+      - ColumnName: swob_lb
         ColumnType: DECIMAL
-      - ColumnName: TQR_Ibft
+      - ColumnName: tqr_lbft
         ColumnType: DECIMAL
-      - ColumnName: BHA_TYPE
+      - ColumnName: bha_type
         ColumnType: TEXT
       # mud data from regular drilling operation (mud-related)
-      - ColumnName: MUD_WEIGHT_sg
+      - ColumnName: mud_weight_sg
         ColumnType: DECIMAL
-      - ColumnName: MUD_PLASTIC_VISC_cp
+      - ColumnName: mud_plastic_visc_cp
         ColumnType: DECIMAL
-      - ColumnName: MUD_YIELD_POINT_lb_per_100ft_sq
+      - ColumnName: mud_yield_point_lb_per_100ft_sq
         ColumnType: DECIMAL
-      - ColumnName: MUD_FLOW_RATE_gpm
+      - ColumnName: mud_flow_rate_gpm
         ColumnType: DECIMAL
       # mwd/lwd data (measured or calculated) from downhole MWD/LWD tool measurements
-      - ColumnName: TVD_ft
+      - ColumnName: tvd_ft
         ColumnType: DECIMAL
-      - ColumnName: MD_ft
+      - ColumnName: md_ft
         ColumnType: DECIMAL
-      - ColumnName: INC_deg
+      - ColumnName: inc_deg
         ColumnType: DECIMAL
-      - ColumnName: AZIM_deg
+      - ColumnName: azim_deg
         ColumnType: DECIMAL
-      - ColumnName: Dogleg_deg_per_100ft
+      - ColumnName: dogleg_deg_per_100ft
         ColumnType: DECIMAL
-      - ColumnName: CALIPER_HOLE_SIZE_inches
+      - ColumnName: caliper_hole_size_inches
         ColumnType: DECIMAL
-      - ColumnName: GR_api
+      - ColumnName: gr_api
         ColumnType: DECIMAL
-      - ColumnName: DEEP_RESISTIVITY_ohm_m
+      - ColumnName: deep_resistivity_ohm_m
         ColumnType: DECIMAL
-      - ColumnName: SHOCK_g
+      - ColumnName: shock_g
+        ColumnType: DECIMAL
+      - ColumnName: dtemp_deg_c
         ColumnType: DECIMAL
       # event data from MWD/LWD tool measurements and other sources
-      - ColumnName: IS_VIBRATION
+      - ColumnName: is_vibration
         ColumnType: BOOLEAN
-      - ColumnName: IS_KICK
+      - ColumnName: is_kick
         ColumnType: BOOLEAN
-      - ColumnName: IS_STUCKPIPE
+      - ColumnName: is_stuckpipe
         ColumnType: BOOLEAN
       BillingMode:
         Mode: !Sub ${KeyspaceTableBillingMode}
