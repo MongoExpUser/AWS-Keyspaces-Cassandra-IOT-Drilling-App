@@ -1,4 +1,4 @@
--- Table -drilling
+-- drilling table
 CREATE TABLE IF NOT EXISTS timeseries.drilling (
   -- id, date, time data
   id TIMEUUID,
