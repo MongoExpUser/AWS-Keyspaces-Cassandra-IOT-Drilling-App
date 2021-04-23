@@ -38,11 +38,8 @@ The data can be streamed by the application directly or through an intermediate 
 
 6) <strong>dml_update.cql</strong> - sample dml query for updating data into the DBaaS.
 
-7) <strong>dml_delete.cql</strong> - sample dml query for deleting data from the DBaaS.
+7) <strong>dml_select.cql</strong> - sample dql query for selecting/reading data from the DBaaS.
 
-8) <strong>dml_select.cql</strong> - sample dql query for selecting/reading data from the DBaaS.
-
-9) <strong>ddl_alter.cql</strong> - sample dml query for droping table from the DBaaS.
  
 
 ### The repo is based on the following languages, frameworks, packages and database servers:
