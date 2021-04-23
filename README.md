@@ -16,8 +16,8 @@ The data can be streamed by the application directly or through an intermediate 
 
 ### The source code files include:
 1) <strong>keyspaces_drilling_cfn.yaml</strong> - AWS Cloud Formation IaC stack for: <br>
-   a) creating the NoSQL DBaaS (Amazon Keystore) and <br>
-   b) defining (ddl) the Data Model (keyspaces, tables and parametized unique tags) 
+   a) Creating the NoSQL DBaaS (Amazon Keystore) and <br>
+   b) Defining (ddl) the Data Model (keyspaces, tables and parametized unique tags) 
    
 2) <strong>keyspaces_drilling.cql</strong> - Cassandra Query Language - CQL's DDL equivalent of of the keyspaces_drilling_cfn.yaml file.
    This can be used to define DBaaS via:<br>
@@ -25,14 +25,14 @@ The data can be streamed by the application directly or through an intermediate 
    b) CQLSH (CSL Shell) using Amazon Keyspaces service-specific credentials.<br>
    
 3) <strong>keyspaces_drlling_client.py</strong> - Main Python client application code for: <br>
-   a) connecting to the DBaaS <br>
-   b) quering (DML and DDL queries) DBaaS <br>
+   a) Connecting to the DBaaS <br>
+   b) Quering (DML and DDL queries) DBaaS <br>
    
 4) <strong>keyspaces_connection_options.json</strong> - json file for specifying all connection options, which include: <br>
     a) Amazon Keyspaces service-specific credentials <br>
-    b) connection port <br>
-    c) the DBaaS endpoint <br>
-    d) ssl certificate path <br>
+    b) Connection port <br>
+    c) The DBaaS endpoint <br>
+    d) SSL certificate path <br>
    
 5) <strong>dml_insert.cql</strong> - sample dml query for inserting data into the DBaaS.
 
