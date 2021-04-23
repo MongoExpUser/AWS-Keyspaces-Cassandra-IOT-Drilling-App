@@ -45,8 +45,8 @@ The data can be streamed by the application directly or through an intermediate 
 9) <strong>ddl_alter.cql</strong> - sample dml query for droping table from the DBaaS.
  
 
-### The This repo is based on the following languages, frameworks, packages and database servers :
-1) Python v3.7 - (https://www.python.org/downloads/release/python-370/)
+### The repo is based on the following languages, frameworks, packages and database servers:
+1) Python v3.8 - (https://www.python.org/downloads/release/python-380/)
 2) Java 8 - Java-8-openjdk (https://openjdk.java.net/)
 3) AWS SDK for Python - Boto3 (https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 4) Python Driver for Apache Cassandra  (https://github.com/datastax/python-driver)
