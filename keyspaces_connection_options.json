@@ -1,0 +1,9 @@
+{
+  "credentials" : {
+    "username"  : "username",
+    "password" : "password"
+  },
+  "port" : 9142,
+  "endpoint" : "endpoint",
+  "ssl_certificate_path" : "ssl_certificate_path"
+}
