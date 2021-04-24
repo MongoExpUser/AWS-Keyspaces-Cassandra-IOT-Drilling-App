@@ -145,8 +145,8 @@ def main():
         sys.stdout = open(output_file_path , 'a')
     # 2. connect and run query/queries
     db_client.separator()
-    file_path_one = 'keyspaces_drilling_data_insert.cql'
-    file_path_two = 'keyspaces_reservoir_data_select.cql'
+    file_path_one = 'dml_insert.cql'
+    file_path_two = 'dml_select.cql'
     list_of_query_files_path = [file_path_one, file_path_two]
     connection_options = db_client.connection_options(options_file_path=options_file_path)
     connect_db = db_client.connect_db(connection_options=connection_options)
