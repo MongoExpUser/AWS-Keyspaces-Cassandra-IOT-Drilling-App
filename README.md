@@ -38,11 +38,12 @@ The data can be streamed by the application directly or through an intermediate 
 
 6) <strong>dml_update.cql</strong> - sample dml for updating data on the DBaaS.
 
-7) <strong>dql_select.cql</strong> - sample dql for selecting data from the DBaaS.
+7) <strong>dml_delete.cql</strong> - sample dml for deleting data on the DBaaS.
 
-8) <strong>ddl_alter.cql</strong> - sample ddl for altering table capacity units on the DBaaS.
+8) <strong>dql_select.cql</strong> - sample dql for selecting data from the DBaaS.
 
- 
+9) <strong>ddl_alter.cql</strong> - sample ddl for altering table capacity units on the DBaaS.
+
 
 ### The repo is based on the following languages, frameworks, packages and database servers:
 1) Python v3.8 - (https://www.python.org/downloads/release/python-380/)
