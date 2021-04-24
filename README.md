@@ -5,8 +5,8 @@
 The application can be used to deliver real-time well drilling operation data into Amazon Keyspaces (for Apache Cassandra) for
 subsequent use in <strong><font>AIML applications</font></strong>, including:<br>
 
-(1) <strong><font color="green"> Anonamly Detections </font></strong> and <br>
-(2) <strong><font color="green"> Classifications </font></strong><br>
+(1) <strong> Anonamly Detections</strong>. <br>
+(2) <strong> Classifications</strong>. <br>
 
 ### The drilling operation could be any of the followings: 
  1) Oil and gas drilling operation (For Shale, conventional, and heavy oil/bitumen reservoir)
