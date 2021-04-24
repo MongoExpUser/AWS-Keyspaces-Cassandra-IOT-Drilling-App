@@ -26,7 +26,7 @@ The data can be streamed by the application directly or through an intermediate 
    
 3) <strong>keyspaces_drlling_client.py</strong> - Main Python client application code for: <br>
    a) Connecting to the DBaaS <br>
-   b) Quering (DML and DDL queries) DBaaS <br>
+   b) Querying (DML, DQL and DDL queries) DBaaS <br>
    
 4) <strong>keyspaces_connection_options.json</strong> - json file for specifying all connection options, which include: <br>
     a) Amazon Keyspaces service-specific credentials <br>
@@ -34,11 +34,13 @@ The data can be streamed by the application directly or through an intermediate 
     c) The DBaaS endpoint <br>
     d) SSL certificate path <br>
    
-5) <strong>dml_insert.cql</strong> - sample dml query for inserting data into the DBaaS.
+5) <strong>dml_insert.cql</strong> - sample dml for inserting data into the DBaaS.
 
-6) <strong>dml_update.cql</strong> - sample dml query for updating data into the DBaaS.
+6) <strong>dml_update.cql</strong> - sample dml for updating data on the DBaaS.
 
-7) <strong>dml_select.cql</strong> - sample dql query for selecting/reading data from the DBaaS.
+7) <strong>dql_select.cql</strong> - sample dql for selecting data from the DBaaS.
+
+8) <strong>ddl_alter.cql</strong> - sample ddl for altering table capacity units on the DBaaS.
 
  
 
