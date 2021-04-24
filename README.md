@@ -3,10 +3,12 @@
 
 ### This repo contains source code for a real-time well data drilling application.
 The application can be used to deliver real-time well drilling operation data into Amazon Keyspaces (for Apache Cassandra) for
-subsequent use in AIML applications including (1) Anonamly Detections and (2) Classifications.
+subsequent use in AIML applications including:<br>
 
+(1) <strong> Anonamly Detections</strong> and <br>
+(2) <strong>Classifications </strong><br>
 
-### The drilling operation could be any of the followings: </strong>
+### The drilling operation could be any of the followings: 
  1) Oil and gas drilling operation (For Shale, conventional, and heavy oil/bitumen reservoir)
  2) Water well drilling operation.
  3) Geothermal well drilling operation.
