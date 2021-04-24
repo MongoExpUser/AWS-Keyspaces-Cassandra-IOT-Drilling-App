@@ -1,4 +1,4 @@
--- dql - sample alter - timeseries.drilling
+-- ddl - sample alter - timeseries.drilling
 ALTER TABLE timeseries.drilling  
 WITH custom_properties = {
   'capacity_mode': {
