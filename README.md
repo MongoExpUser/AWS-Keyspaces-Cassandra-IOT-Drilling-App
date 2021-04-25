@@ -30,7 +30,7 @@ The data can be streamed by the application directly or through an intermediate 
    a) Creating the NoSQL DBaaS (Amazon Keystore) and <br>
    b) Defining (ddl) the Data Model (keyspaces, tables and parametized unique tags) 
    
-4) <strong>ddl_timeseries_keyspace.cql</strong> and <strong>ddl_drilling_table.cql</strong> - Cassandra Query Language - CQL's DDL equivalent of of the keyspaces_drilling_cfn.yaml file.
+4) <strong>ddl_timeseries_keyspace.cql</strong> and <strong>ddl_drilling_table.cql</strong> - Cassandra Query Language - CQL's DDL equivalent of of the <strong>keyspaces_drilling_cfn.yaml</strong> file.
    These can be used to define the DBaaS' keyspace and table via:<br>
    a) AWS Management Console's CQL Editor or <br>
    b) CQLSH (CSL Shell) using Amazon Keyspaces service-specific credentials.<br>
