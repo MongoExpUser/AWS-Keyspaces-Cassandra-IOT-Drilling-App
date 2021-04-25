@@ -8,9 +8,9 @@ subsequent use in <strong><font>AIML applications</font></strong>, including:<br
 (2) <strong> Classifications</strong>. <br>
 
 ### The drilling operation could be any of the followings: 
- 1) Oil and gas drilling operation (For Shale, conventional, and heavy oil/bitumen reservoir)
- 2) Water well drilling operation.
- 3) Geothermal well drilling operation.
+ 1) <strong>Oil</strong> and <strong>gas</strong> drilling operation (For shale, conventional, and heavy oil/bitumen reservoirs).
+ 2) <strong>Water</strong> well drilling operation.
+ 3) <strong>Geothermal</strong> well drilling operation for <strong>renewable energy</strong>.
  
 The data can be streamed by the application directly or through an intermediate file (.CSV) that is offloaded to S3 bucket at set intermittent interval.
 
