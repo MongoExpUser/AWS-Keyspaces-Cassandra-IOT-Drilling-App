@@ -1,4 +1,4 @@
--- drilling table
+-- ddl - create drilling table
 CREATE TABLE IF NOT EXISTS timeseries.drilling (
   -- id, date, time data
   id TIMEUUID,
@@ -36,4 +36,3 @@ CREATE TABLE IF NOT EXISTS timeseries.drilling (
 ) WITH CUSTOM_PROPERTIES={'point_in_time_recovery': {'status': 'disabled'}}
   AND CLUSTERING ORDER BY (id DESC)
   AND TAGS = {'Creator': 'creator@domain.com', 'Name': 'org-iot-prod-us-east-1-drilling'};
-  
