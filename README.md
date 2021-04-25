@@ -1,6 +1,5 @@
 # AWS-Keyspaces-Cassandra-IOT-Drilling-App
 
-
 ### This repo contains source code for a real-time well data drilling application.
 The application can be used to deliver real-time well drilling operation data into Amazon Keyspaces (for Apache Cassandra) for
 subsequent use in <strong><font>AIML applications</font></strong>, including:<br>
@@ -17,24 +16,24 @@ The data can be streamed by the application directly or through an intermediate 
 
 
 ### The source code files include:
-1) <strong>keyspaces_drilling_cfn.yaml</strong> - AWS Cloud Formation IaC stack for: <br>
-   a) Creating the NoSQL DBaaS (Amazon Keystore) and <br>
-   b) Defining (ddl) the Data Model (keyspaces, tables and parametized unique tags) 
-   
-2) <strong>ddl_timeseries_keyspace.cql</strong> and <strong>ddl_drilling_table.cql</strong> - Cassandra Query Language - CQL's DDL equivalent of of the keyspaces_drilling_cfn.yaml file.
-   These can be used to define the DBaaS' keyspace and table via:<br>
-   a) AWS Management Console's CQL Editor or <br>
-   b) CQLSH (CSL Shell) using Amazon Keyspaces service-specific credentials.<br>
-   
-3) <strong>keyspaces_drlling_client.py</strong> - Main Python client application code for: <br>
+1) <strong>keyspaces_drlling_client.py</strong> - Main Python client application code for: <br>
    a) Connecting to the DBaaS <br>
    b) Querying (DML, DQL and DDL queries) DBaaS <br>
    
-4) <strong>keyspaces_connection_options.json</strong> - json file for specifying all connection options, which include: <br>
+2) <strong>keyspaces_connection_options.json</strong> - json file for specifying all connection options, which include: <br>
     a) Amazon Keyspaces service-specific credentials <br>
     b) Connection port <br>
     c) The DBaaS endpoint <br>
     d) SSL certificate path <br>
+   
+3) <strong>keyspaces_drilling_cfn.yaml</strong> - AWS Cloud Formation IaC stack for: <br>
+   a) Creating the NoSQL DBaaS (Amazon Keystore) and <br>
+   b) Defining (ddl) the Data Model (keyspaces, tables and parametized unique tags) 
+   
+4) <strong>ddl_timeseries_keyspace.cql</strong> and <strong>ddl_drilling_table.cql</strong> - Cassandra Query Language - CQL's DDL equivalent of of the keyspaces_drilling_cfn.yaml file.
+   These can be used to define the DBaaS' keyspace and table via:<br>
+   a) AWS Management Console's CQL Editor or <br>
+   b) CQLSH (CSL Shell) using Amazon Keyspaces service-specific credentials.<br>
    
 5) <strong>dml_insert.cql</strong> - sample dml for inserting data into the DBaaS.
 
