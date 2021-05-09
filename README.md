@@ -54,7 +54,6 @@ The data can be streamed by the application directly or through an intermediate 
 5) CQL Language Reference for Amazon Keyspaces (for Apache Cassandra) - (https://docs.aws.amazon.com/keyspaces/latest/devguide/cql.html)
 6) Amazon Keyspaces (for Apache Cassandra) - (https://docs.aws.amazon.com/keyspaces/latest/devguide/what-is-keyspaces.html)
 7) Apache Cassandra (includes CQLSH) - (https://cassandra.apache.org/)
-<br> 
 
 
 
