@@ -17,18 +17,18 @@ The data can be streamed by the application directly or through an intermediate 
 
 ### The source code files include:
 1) <strong>keyspaces_drlling_client.py</strong> - Main Python client application code for: <br>
-   a) Connecting to the DBaaS <br>
-   b) Querying (DML, DQL and DDL queries) DBaaS <br>
+   a) Connecting to the DBaaS. <br>
+   b) Querying (DML, DQL and DDL queries) DBaaS. <br>
    
 2) <strong>keyspaces_connection_options.json</strong> - json file for specifying all connection options, which include: <br>
     a) Amazon Keyspaces service-specific credentials <br>
-    b) Connection port <br>
-    c) The DBaaS endpoint <br>
-    d) SSL certificate path <br>
+    b) Connection port. <br>
+    c) The DBaaS endpoint. <br>
+    d) SSL certificate path. <br>
    
 3) <strong>keyspaces_drilling_cfn.yaml</strong> - AWS Cloud Formation IaC stack for: <br>
-   a) Creating the NoSQL DBaaS (Amazon Keystore) and <br>
-   b) Defining (ddl) the Data Model (keyspaces, tables and parametized unique tags) 
+   a) Creating the NoSQL DBaaS (Amazon Keystore). <br>
+   b) Defining (ddl) the Data Model (keyspaces, tables and parametized unique tags). 
    
 4) <strong>ddl_timeseries_keyspace.cql</strong> and <strong>ddl_drilling_table.cql</strong> - Cassandra Query Language - CQL's DDL equivalent of of the <strong>keyspaces_drilling_cfn.yaml</strong> file.
    These can be used to define the DBaaS' keyspace and table via:<br>
