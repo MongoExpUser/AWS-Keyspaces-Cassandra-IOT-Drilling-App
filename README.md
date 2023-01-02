@@ -21,7 +21,7 @@ The data can be streamed by the application directly or through an intermediate 
    b) Querying (DML, DQL and DDL queries) DBaaS. <br>
    
 2) <strong>keyspaces_connection_options.json</strong> - json file for specifying all connection options, which include: <br>
-    a) Amazon Keyspaces service-specific credentials <br>
+    a) Amazon Keyspaces service-specific credentials. <br>
     b) Connection port. <br>
     c) The DBaaS endpoint. <br>
     d) SSL certificate path. <br>
