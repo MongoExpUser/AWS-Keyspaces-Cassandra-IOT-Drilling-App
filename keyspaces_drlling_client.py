@@ -14,7 +14,7 @@
 # *     b) Install Python version 3.8 as: sudo apt-get install python3.8                                         *
 # *     c) Install dependent module, boto3 as: sudo python3.8 -m pip install boto3                               *
 # *     d) Install python cassandra-driver as: sudo python3.8 -m pip install cassandra-driver                    *
-# *                                                                                                              *                                                                                                              *
+# *                                                                                                              *     
 # *  3) AWS documentation link: https://docs.aws.amazon.com/keyspaces/latest/devguide/using_python_driver.html   *
 # *                                                                                                              *
 # ****************************************************************************************************************
